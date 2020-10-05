@@ -1,5 +1,7 @@
 package com.example.lab2.model
 
+import com.google.gson.annotations.SerializedName
+
 data class MoviesData (
         @SerializedName("id") val id: Int? = null,
         @SerializedName("title") val title: String? = null,
